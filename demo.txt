@@ -1,0 +1,76 @@
+node -v
+npm -v
+
+npm install -g @angular/cli
+
+1) set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+2) Get-ExecutionPolicy
+3) Get-ExecutionPolicy -list
+
+ng -v
+ng new hello-world
+cd hello-world
+ng serve    
+
+----------------------
+creat component
+ng g c test
+
+-----------
+Server Express creat
+npm init --yes
+npm install --save express body-parser cors
+
+node Server 
+ 
+----------------------force 
+npm i -f
+
+
+-------- -----Lays loading-------------
+admin
+    list
+    data 
+
+
+[1] app-routing-module
+
+const routes : Routes = [
+    {
+        path: 'admin', loadChildern()=>import('./admin/admin.module').then(mod=>mod.AdminModule)
+    }
+];
+
+
+[2] admin-routing-module
+
+const routes : Routes =[
+    {
+        path: 'list', component: Listcomponent
+    },
+    {
+        path: 'data', component: datacomponent
+    }
+]    
+
+---------------Angular Extenstion VS---------------
+
+1) Angular Language Service
+2) Angular Schematics
+3) HTML CSS Support
+4) Material Icon Theme
+5) Path Intellisense
+6) SCSS Formatter
+7) Tailwind CSS IntelliSense
+
+
+
+
+
+
+
+
+
+
+
+
