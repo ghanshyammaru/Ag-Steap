@@ -27,6 +27,14 @@ node Server
 npm i -f
 
 
+-------------------Local Server 
+npm install Json-server
+json-server –watch db.json
+Add Line: pacage.json
+	-"json:server": "json-server --watch db.json"
+npm run json:server
+http://localhost:3000
+
 -------- -----Lays loading-------------
 admin
     list
